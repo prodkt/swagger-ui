@@ -1,0 +1,1123 @@
+
+:root {
+    --colorBtnPrimaryBackgroundColor: #369eff;    
+    --colorBackgroundBase: #1c1c1c;    
+    --colorBackgroundHover: #ffffff0f;    
+    --colorBackgroundActive: #ffffff1a;    
+    --colorBackgroundSelected: #ffffff14;    
+    --colorBackgroundSelectedHover: #ffffff1a;    
+    --colorBackgroundInverse: #ededed;    
+    --colorBackgroundInverseHover: #ededede5;    
+    --colorBackgroundBrand: #369eff;    
+    --colorLayer01: #ffffff;    
+    --colorLayer02: #1c1c1c;    
+    --colorLayer03: #ffffff;    
+    --colorLayerHover01: #161616;    
+    --colorLayerHover02: #161616;    
+    --colorLayerHover03: #161616;    
+    --colorLayerActive01: #232323;    
+    --colorLayerActive02: #232323;    
+    --colorLayerActive03: #232323;    
+    --colorLayerSelected01: #232323;    
+    --colorLayerSelected02: #232323;    
+    --colorLayerSelected03: #232323;    
+    --colorLayerSelectedHover01: #232323;    
+    --colorLayerSelectedHover02: #232323;    
+    --colorLayerSelectedHover03: #232323;    
+    --colorLayerAccent01: #1c1c1c;    
+    --colorLayerAccent02: #1c1c1c;    
+    --colorLayerAccent03: #1c1c1c;    
+    --colorLayerAccentHover01: #1c1c1c;    
+    --colorLayerAccentHover02: #1c1c1c;    
+    --colorLayerAccentHover03: #1c1c1c;    
+    --colorLayerAccentActive01: #232323;    
+    --colorLayerAccentActive02: #282828;    
+    --colorLayerAccentActive03: #282828;    
+    --colorField01: #ffffff;    
+    --colorFieldHover01: #161616;    
+    --colorField02: #161616;    
+    --colorFieldHover02: #1c1c1c;    
+    --colorField03: #ffffff;    
+    --colorFieldHover03: #161616;    
+    --colorBorderSubtle00: #1c1c1c;    
+    --colorBorderSubtleSelected00: #343434;    
+    --colorBorderSubtle01: #1c1c1c;    
+    --colorBorderSubtleSelected01: #232323;    
+    --colorBorderSubtle02: #1c1c1c;    
+    --colorBorderSubtleSelected02: #232323;    
+    --colorBorderSubtle03: #1c1c1c;    
+    --colorBorderSubtleSelected03: #232323;    
+    --colorBorderStrong01: #2e2e2e;    
+    --colorBorderStrong02: #2e2e2e;    
+    --colorBorderStrong03: #2e2e2e;    
+    --colorBorderInverse: #707070;    
+    --colorBorderDisabled: #232323;    
+    --colorBorderInteractive: #369eff;    
+    --colorTextPrimary: #ededed;    
+    --colorTextSecondary: #edededcc;    
+    --colorTextPlaceholder: #707070;    
+    --colorTextOnColor: #ffffff;    
+    --colorTextOnColorDisabled: #2e2e2e;    
+    --colorTextHelper: #707070;    
+    --colorTextInverse: #1c1c1c;    
+    --colorTextDisabled: #1616163d;    
+    --colorTextError: #ff595ff0;    
+    --colorLinkPrimary: #369eff;    
+    --colorLinkPrimaryHover: #52a9ff;    
+    --colorLinkSecondary: #ededede5;    
+    --colorLinkInverse: #0a4481;    
+    --colorLinkVisited: #3e63dd;    
+    --colorIconPrimary: #ededed;    
+    --colorIconSecondary: #a0a0a0;    
+    --colorIconOnColor: #ffffff;    
+    --colorIconOnColorDisabled: #2e2e2e;    
+    --colorIconInverse: #ffffff;    
+    --colorIconDisabled: #1616163d;    
+    --colorButtonPrimary: #369eff;    
+    --colorButtonPrimaryHover: #52a9ff;    
+    --colorButtonPrimaryActive: #eaf6ff;    
+    --colorButtonSecondary: #ededed;    
+    --colorButtonSecondaryHover: #ededede5;    
+    --colorButtonSecondaryActive: #edededd9;    
+    --colorButtonTertiary: #369eff;    
+    --colorButtonTertiaryHover: #52a9ff;    
+    --colorButtonTertiaryActive: #eaf6ff;    
+    --colorButtonDangerPrimary: #ff595ff0;    
+    --colorButtonDangerSecondary: #ff595ff0;    
+    --colorButtonDangerHover: #ff646afa;    
+    --colorButtonSeparator: #1c1c1c;    
+    --colorButtonDisabled: #232323;    
+    --colorButtonWarning: #f1a10d;    
+    --colorButtonWarningHover: #f1a10de5;    
+    --colorButtonWarningActive: #f1a10dd9;    
+    --colorSupportError: #ff646afa;    
+    --colorSupportErrorInverse: #ff2f369e;    
+    --colorSupportSuccess: #4cc38a;    
+    --colorSupportSuccessInverse: #236e4a;    
+    --colorSupportWarning: #ffcb47;    
+    --colorSupportWarningInverse: #3e3000;    
+    --colorSupportInfo: #52a9ff;    
+    --colorSupportInfoInverse: #0954a5;    
+    --colorFocusFocus: #369eff;    
+    --colorFocusInset: #ffffff;    
+    --colorFocusFocusInverse: #ffffff;    
+    --colorMiscInteractive: #369eff;    
+    --colorMiscHighlight: #0f1b2d;    
+    --colorMiscToggleOff: #2e2e2e;    
+    --colorMiscOverlay: #ffffff21;    
+    --colorMiscOverlayStrong: #ffffff63;    
+    --colorShadowDefault: #505050;    
+    --colorColorPrimaryDefault: #369eff;    
+    --colorColorPrimaryHover: #52a9ff;    
+    --colorColorPrimaryActive: #eaf6ff;    
+    --colorAmber1: #1f1300;    
+    --colorAmber2: #271700;    
+    --colorAmber3: #341c00;    
+    --colorAmber4: #3f2200;    
+    --colorAmber5: #4a2900;    
+    --colorAmber6: #573300;    
+    --colorAmber7: #693f05;    
+    --colorAmber8: #824e00;    
+    --colorAmber9: #ffb224;    
+    --colorAmber10: #ffcb47;    
+    --colorAmber11: #f1a10d;    
+    --colorAmber12: #fef3dd;    
+    /* undefined */
+    --colorAmberA1: #00000000;    
+    /* undefined */
+    --colorAmberA2: #fd83000a;    
+    /* undefined */
+    --colorAmberA3: #fe730017;    
+    /* undefined */
+    --colorAmberA4: #ff7b0024;    
+    /* undefined */
+    --colorAmberA5: #ff840030;    
+    /* undefined */
+    --colorAmberA6: #ff950040;    
+    /* undefined */
+    --colorAmberA7: #ff970f54;    
+    /* undefined */
+    --colorAmberA8: #ff990070;    
+    /* undefined */
+    --colorAmberA9: #ffb625fa;    
+    /* undefined */
+    --colorAmberA10: #ffce48fa;    
+    /* undefined */
+    --colorAmberA11: #ffab0ef0;    
+    /* undefined */
+    --colorAmberA12: #fff8e1fa;    
+    --colorBlue1: #0f1720;    
+    --colorBlue2: #0f1b2d;    
+    --colorBlue3: #10243e;    
+    --colorBlue4: #102a4c;    
+    --colorBlue5: #0f3058;    
+    --colorBlue6: #0d3868;    
+    --colorBlue7: #0a4481;    
+    --colorBlue8: #0954a5;    
+    --colorBlue9: #0091ff;    
+    --colorBlue10: #369eff;    
+    --colorBlue11: #52a9ff;    
+    --colorBlue12: #eaf6ff;    
+    /* undefined */
+    --colorBlueA1: #00000000;    
+    /* undefined */
+    --colorBlueA2: #0f5afc0f;    
+    /* undefined */
+    --colorBlueA3: #1677fe24;    
+    /* undefined */
+    --colorBlueA4: #1476fe33;    
+    /* undefined */
+    --colorBlueA5: #0f7bfe40;    
+    /* undefined */
+    --colorBlueA6: #097cff52;    
+    /* undefined */
+    --colorBlueA7: #047dff70;    
+    /* undefined */
+    --colorBlueA8: #057eff99;    
+    /* undefined */
+    --colorBlueA9: #0095fffa;    
+    /* undefined */
+    --colorBlueA10: #37a1fffa;    
+    /* undefined */
+    --colorBlueA11: #53acfffa;    
+    /* undefined */
+    --colorBlueA12: #effbfffa;    
+    --colorBronze1: #191514;    
+    --colorBronze2: #1f1917;    
+    --colorBronze3: #2a211f;    
+    --colorBronze4: #332824;    
+    --colorBronze5: #3b2e29;    
+    --colorBronze6: #453530;    
+    --colorBronze7: #57433c;    
+    --colorBronze8: #74594e;    
+    --colorBronze9: #a18072;    
+    --colorBronze10: #b08c7d;    
+    --colorBronze11: #cba393;    
+    --colorBronze12: #f9ede7;    
+    /* undefined */
+    --colorBronzeA1: #00000000;    
+    /* undefined */
+    --colorBronzeA2: #f7aa8308;    
+    /* undefined */
+    --colorBronzeA3: #ffb7a912;    
+    /* undefined */
+    --colorBronzeA4: #fdbca11c;    
+    /* undefined */
+    --colorBronzeA5: #ffbea226;    
+    /* undefined */
+    --colorBronzeA6: #febca630;    
+    /* undefined */
+    --colorBronzeA7: #ffbfa845;    
+    /* undefined */
+    --colorBronzeA8: #ffc1a666;    
+    /* undefined */
+    --colorBronzeA9: #ffcab396;    
+    /* undefined */
+    --colorBronzeA10: #ffcab4a8;    
+    /* undefined */
+    --colorBronzeA11: #ffccb8c4;    
+    /* undefined */
+    --colorBronzeA12: #fff3edf7;    
+    --colorCrimson1: #1d1418;    
+    --colorCrimson2: #27141c;    
+    --colorCrimson3: #3c1827;    
+    --colorCrimson4: #481a2d;    
+    --colorCrimson5: #541b33;    
+    --colorCrimson6: #641d3b;    
+    --colorCrimson7: #801d45;    
+    --colorCrimson8: #ae1955;    
+    --colorCrimson9: #e93d82;    
+    --colorCrimson10: #f04f88;    
+    --colorCrimson11: #f76190;    
+    --colorCrimson12: #feecf4;    
+    /* undefined */
+    --colorCrimsonA1: #00000000;    
+    /* undefined */
+    --colorCrimsonA2: #fb14710d;    
+    /* undefined */
+    --colorCrimsonA3: #fe318624;    
+    /* undefined */
+    --colorCrimsonA4: #fe338430;    
+    /* undefined */
+    --colorCrimsonA5: #fe31863d;    
+    /* undefined */
+    --colorCrimsonA6: #fe31864f;    
+    /* undefined */
+    --colorCrimsonA7: #fe287e70;    
+    /* undefined */
+    --colorCrimsonA8: #ff1c77a3;    
+    /* undefined */
+    --colorCrimsonA9: #ff418de5;    
+    /* undefined */
+    --colorCrimsonA10: #ff538fed;    
+    /* undefined */
+    --colorCrimsonA11: #ff6495f5;    
+    /* undefined */
+    --colorCrimsonA12: #fff0f8fa;    
+    --colorSage1: #141716;    
+    --colorSage2: #191d1b;    
+    --colorSage3: #1f2421;    
+    --colorSage4: #252a27;    
+    --colorSage5: #2a2f2c;    
+    --colorSage6: #303633;    
+    --colorSage7: #393f3c;    
+    --colorSage8: #4a524e;    
+    --colorSage9: #66736d;    
+    --colorSage10: #75817b;    
+    --colorSage11: #99a29e;    
+    --colorSage12: #eceeed;    
+    /* undefined */
+    --colorSageA1: #00000000;    
+    /* undefined */
+    --colorSageA2: #d4fed608;    
+    /* undefined */
+    --colorSageA3: #d5fbd70f;    
+    /* undefined */
+    --colorSageA4: #e3ffe514;    
+    /* undefined */
+    --colorSageA5: #e8feea1a;    
+    /* undefined */
+    --colorSageA6: #e5feee21;    
+    /* undefined */
+    --colorSageA7: #eafef22b;    
+    /* undefined */
+    --colorSageA8: #e8fef240;    
+    /* undefined */
+    --colorSageA9: #e3fff166;    
+    /* undefined */
+    --colorSageA10: #e8fff375;    
+    /* undefined */
+    --colorSageA11: #f2fff999;    
+    /* undefined */
+    --colorSageA12: #fdfffeed;    
+    --colorBrown1: #191513;    
+    --colorBrown2: #221813;    
+    --colorBrown3: #2e201a;    
+    --colorBrown4: #36261e;    
+    --colorBrown5: #3e2c22;    
+    --colorBrown6: #493528;    
+    --colorBrown7: #5c4332;    
+    --colorBrown8: #775940;    
+    --colorBrown9: #ad7f58;    
+    --colorBrown10: #bd8b60;    
+    --colorBrown11: #dba16e;    
+    --colorBrown12: #faf0e5;    
+    /* undefined */
+    --colorBrownA1: #00000000;    
+    /* undefined */
+    --colorBrownA2: #ff69130a;    
+    /* undefined */
+    --colorBrownA3: #fd916317;    
+    /* undefined */
+    --colorBrownA4: #fe9f6c1f;    
+    /* undefined */
+    --colorBrownA5: #feac7229;    
+    /* undefined */
+    --colorBrownA6: #feb07936;    
+    /* undefined */
+    --colorBrownA7: #feb47e4a;    
+    /* undefined */
+    --colorBrownA8: #febc8269;    
+    /* undefined */
+    --colorBrownA9: #ffba7ea3;    
+    /* undefined */
+    --colorBrownA10: #ffbb7fb5;    
+    /* undefined */
+    --colorBrownA11: #ffbb7fd6;    
+    /* undefined */
+    --colorBrownA12: #fff5e9fa;    
+    --colorGray1: #161616;    
+    --colorGray2: #1c1c1c;    
+    --colorGray3: #232323;    
+    --colorGray4: #282828;    
+    --colorGray5: #2e2e2e;    
+    --colorGray6: #343434;    
+    --colorGray7: #3e3e3e;    
+    --colorGray8: #505050;    
+    --colorGray9: #707070;    
+    --colorGray10: #7e7e7e;    
+    --colorGray11: #a0a0a0;    
+    --colorGray12: #ededed;    
+    /* undefined */
+    --colorGrayA1: #ffffff00;    
+    /* undefined */
+    --colorGrayA2: #ffffff08;    
+    /* undefined */
+    --colorGrayA3: #ffffff0f;    
+    /* undefined */
+    --colorGrayA4: #ffffff14;    
+    /* undefined */
+    --colorGrayA5: #ffffff1a;    
+    /* undefined */
+    --colorGrayA6: #ffffff21;    
+    /* undefined */
+    --colorGrayA7: #ffffff2b;    
+    /* undefined */
+    --colorGrayA8: #ffffff40;    
+    /* undefined */
+    --colorGrayA9: #ffffff63;    
+    /* undefined */
+    --colorGrayA10: #ffffff73;    
+    /* undefined */
+    --colorGrayA11: #ffffff96;    
+    /* undefined */
+    --colorGrayA12: #ffffffeb;    
+    --colorSlate1: #151718;    
+    --colorSlate2: #1a1d1e;    
+    --colorSlate3: #202425;    
+    --colorSlate4: #26292b;    
+    --colorSlate5: #2b2f31;    
+    --colorSlate6: #313538;    
+    --colorSlate7: #3a3f42;    
+    --colorSlate8: #4c5155;    
+    --colorSlate9: #697177;    
+    --colorSlate10: #787f85;    
+    --colorSlate11: #9ba1a6;    
+    --colorSlate12: #ecedee;    
+    /* undefined */
+    --colorSlateA1: #00000000;    
+    /* undefined */
+    --colorSlateA2: #d5feff08;    
+    /* undefined */
+    --colorSlateA3: #d6fbfc0f;    
+    /* undefined */
+    --colorSlateA4: #e2f0fd14;    
+    /* undefined */
+    --colorSlateA5: #dff3fd1c;    
+    /* undefined */
+    --colorSlateA6: #dfeffe24;    
+    /* undefined */
+    --colorSlateA7: #e0f3ff2e;    
+    /* undefined */
+    --colorSlateA8: #e5f2fe42;    
+    /* undefined */
+    --colorSlateA9: #e1f1ff69;    
+    /* undefined */
+    --colorSlateA10: #e7f3ff78;    
+    /* undefined */
+    --colorSlateA11: #eff7ff9e;    
+    /* undefined */
+    --colorSlateA12: #fdfeffed;    
+    /* undefined */
+    --colorTeal1: #00000000;    
+    /* undefined */
+    --colorTeal2: #00fbd508;    
+    /* undefined */
+    --colorTeal3: #00fddc12;    
+    /* undefined */
+    --colorTeal4: #00fde81a;    
+    /* undefined */
+    --colorTeal5: #02fee424;    
+    /* undefined */
+    --colorTeal6: #09ffe630;    
+    /* undefined */
+    --colorTeal7: #11ffe342;    
+    /* undefined */
+    --colorTeal8: #11ffe75e;    
+    /* undefined */
+    --colorTeal9: #18ffe49c;    
+    /* undefined */
+    --colorTeal10: #13ffe7ab;    
+    /* undefined */
+    --colorTeal11: #0affe7bf;    
+    /* undefined */
+    --colorTeal12: #e6fff9fa;    
+    --colorCyan1: #07191d;    
+    --colorCyan2: #061e24;    
+    --colorCyan3: #072830;    
+    --colorCyan4: #07303b;    
+    --colorCyan5: #073844;    
+    --colorCyan6: #064150;    
+    --colorCyan7: #045063;    
+    --colorCyan8: #00647d;    
+    --colorCyan9: #05a2c2;    
+    --colorCyan10: #00b1cc;    
+    --colorCyan11: #00c2d7;    
+    --colorCyan12: #e1f8fa;    
+    /* undefined */
+    --colorCyanA1: #00000000;    
+    /* undefined */
+    --colorCyanA2: #00bbff08;    
+    /* undefined */
+    --colorCyanA3: #07cbfc17;    
+    /* undefined */
+    --colorCyanA4: #07c5ff21;    
+    /* undefined */
+    --colorCyanA5: #07cdfe2b;    
+    /* undefined */
+    --colorCyanA6: #02c8ff3b;    
+    /* undefined */
+    --colorCyanA7: #00ccff4f;    
+    /* undefined */
+    --colorCyanA8: #00c8ff6e;    
+    /* undefined */
+    --colorCyanA9: #04d5ffba;    
+    /* undefined */
+    --colorCyanA10: #00ddffc4;    
+    /* undefined */
+    --colorCyanA11: #00e5fed1;    
+    /* undefined */
+    --colorCyanA12: #e6fdfffa;    
+    --colorGold1: #171613;    
+    --colorGold2: #1c1a15;    
+    --colorGold3: #26231c;    
+    --colorGold4: #2e2a21;    
+    --colorGold5: #353026;    
+    --colorGold6: #3e382c;    
+    --colorGold7: #504737;    
+    --colorGold8: #6b5d48;    
+    --colorGold9: #978365;    
+    --colorGold10: #a59071;    
+    --colorGold11: #bfa888;    
+    --colorGold12: #f7f4e7;    
+    /* undefined */
+    --colorGoldA1: #00000000;    
+    /* undefined */
+    --colorGoldA2: #facb6e05;    
+    /* undefined */
+    --colorGoldA3: #fede9d0f;    
+    /* undefined */
+    --colorGoldA4: #fdde9f1a;    
+    /* undefined */
+    --colorGoldA5: #fedda521;    
+    /* undefined */
+    --colorGoldA6: #fedfa72b;    
+    /* undefined */
+    --colorGoldA7: #ffdda640;    
+    /* undefined */
+    --colorGoldA8: #fed9a55c;    
+    /* undefined */
+    --colorGoldA9: #ffdca78c;    
+    /* undefined */
+    --colorGoldA10: #ffdcac9c;    
+    /* undefined */
+    --colorGoldA11: #ffe0b4ba;    
+    /* undefined */
+    --colorGoldA12: #fffceef7;    
+    --colorGrass1: #0d1912;    
+    --colorGrass2: #0f1e13;    
+    --colorGrass3: #132819;    
+    --colorGrass4: #16301d;    
+    --colorGrass5: #193921;    
+    --colorGrass6: #1d4427;    
+    --colorGrass7: #245530;    
+    --colorGrass8: #2f6e3b;    
+    --colorGrass9: #46a758;    
+    --colorGrass10: #55b467;    
+    --colorGrass11: #63c174;    
+    --colorGrass12: #e5fbeb;    
+    /* undefined */
+    --colorGrassA1: #00000000;    
+    /* undefined */
+    --colorGrassA2: #68fc3f05;    
+    /* undefined */
+    --colorGrassA3: #68fc7b12;    
+    /* undefined */
+    --colorGrassA4: #67ff801a;    
+    /* undefined */
+    --colorGrassA5: #63fe7d24;    
+    /* undefined */
+    --colorGrassA6: #63ff8230;    
+    /* undefined */
+    --colorGrassA7: #65ff8442;    
+    /* undefined */
+    --colorGrassA8: #69ff825e;    
+    /* undefined */
+    --colorGrassA9: #69ff829e;    
+    /* undefined */
+    --colorGrassA10: #78ff91ab;    
+    /* undefined */
+    --colorGrassA11: #83ff97ba;    
+    /* undefined */
+    --colorGrassA12: #eafff0fa;    
+    --colorGreen1: #0d1912;    
+    --colorGreen2: #0c1f17;    
+    --colorGreen3: #0f291e;    
+    --colorGreen4: #113123;    
+    --colorGreen5: #133929;    
+    --colorGreen6: #164430;    
+    --colorGreen7: #1b543a;    
+    --colorGreen8: #236e4a;    
+    --colorGreen9: #30a46c;    
+    --colorGreen10: #3cb179;    
+    --colorGreen11: #4cc38a;    
+    --colorGreen12: #e5fbeb;    
+    /* undefined */
+    --colorGreenA1: #00000000;    
+    /* undefined */
+    --colorGreenA2: #00f7ca08;    
+    /* undefined */
+    --colorGreenA3: #2afebe12;    
+    /* undefined */
+    --colorGreenA4: #33feb31a;    
+    /* undefined */
+    --colorGreenA5: #38feb524;    
+    /* undefined */
+    --colorGreenA6: #3dffb130;    
+    /* undefined */
+    --colorGreenA7: #43ffad42;    
+    /* undefined */
+    --colorGreenA8: #49ffaa5e;    
+    /* undefined */
+    --colorGreenA9: #47ffa69c;    
+    /* undefined */
+    --colorGreenA10: #54ffafa8;    
+    /* undefined */
+    --colorGreenA11: #62ffb3bd;    
+    /* undefined */
+    --colorGreenA12: #eafff0fa;    
+    --colorLime1: #141807;    
+    --colorLime2: #181d08;    
+    --colorLime3: #1e260d;    
+    --colorLime4: #252e0f;    
+    --colorLime5: #2b3711;    
+    --colorLime6: #344213;    
+    --colorLime7: #415215;    
+    --colorLime8: #536716;    
+    --colorLime9: #99d52a;    
+    --colorLime10: #c4f042;    
+    --colorLime11: #87be22;    
+    --colorLime12: #effbdd;    
+    /* undefined */
+    --colorLimeA1: #00000000;    
+    /* undefined */
+    --colorLimeA2: #cafb3505;    
+    /* undefined */
+    --colorLimeA3: #b8fd6a0f;    
+    /* undefined */
+    --colorLimeA4: #c4fd5b1a;    
+    /* undefined */
+    --colorLimeA5: #befe5124;    
+    /* undefined */
+    --colorLimeA6: #c5ff492e;    
+    /* undefined */
+    --colorLimeA7: #c8fe3f40;    
+    /* undefined */
+    --colorLimeA8: #ccff3357;    
+    /* undefined */
+    --colorLimeA9: #b7ff32d1;    
+    /* undefined */
+    --colorLimeA10: #d1ff46f0;    
+    /* undefined */
+    --colorLimeA11: #b5ff2cb8;    
+    /* undefined */
+    --colorLimeA12: #f4ffe1fa;    
+    --colorMint1: #081917;    
+    --colorMint2: #05201e;    
+    --colorMint3: #052926;    
+    --colorMint4: #04312c;    
+    --colorMint5: #033a34;    
+    --colorMint6: #01453d;    
+    --colorMint7: #00564a;    
+    --colorMint8: #006d5b;    
+    --colorMint9: #70e1c8;    
+    --colorMint10: #95f3d9;    
+    --colorMint11: #25d0ab;    
+    --colorMint12: #e7fcf7;    
+    /* undefined */
+    --colorMintA1: #00000000;    
+    /* undefined */
+    --colorMintA2: #00fbfb08;    
+    /* undefined */
+    --colorMintA3: #00fded12;    
+    /* undefined */
+    --colorMintA4: #00fde01a;    
+    /* undefined */
+    --colorMintA5: #00fee024;    
+    /* undefined */
+    --colorMintA6: #00fedc30;    
+    /* undefined */
+    --colorMintA7: #00fed845;    
+    /* undefined */
+    --colorMintA8: #00fed05e;    
+    /* undefined */
+    --colorMintA9: #80ffe3de;    
+    /* undefined */
+    --colorMintA10: #9dffe3f2;    
+    /* undefined */
+    --colorMintA11: #2cffd1cc;    
+    /* undefined */
+    --colorMintA12: #ecfffbfa;    
+    --colorIndigo1: #131620;    
+    --colorIndigo2: #15192d;    
+    --colorIndigo3: #192140;    
+    --colorIndigo4: #1c274f;    
+    --colorIndigo5: #1f2c5c;    
+    --colorIndigo6: #22346e;    
+    --colorIndigo7: #273e89;    
+    --colorIndigo8: #2f4eb2;    
+    --colorIndigo9: #3e63dd;    
+    --colorIndigo10: #5373e7;    
+    --colorIndigo11: #849dff;    
+    --colorIndigo12: #eef1fd;    
+    /* undefined */
+    --colorIndigoA1: #00000000;    
+    /* undefined */
+    --colorIndigoA2: #3549fc0f;    
+    /* undefined */
+    --colorIndigoA3: #3c63fe24;    
+    /* undefined */
+    --colorIndigoA4: #3d67ff36;    
+    /* undefined */
+    --colorIndigoA5: #3f69fe45;    
+    /* undefined */
+    --colorIndigoA6: #3e6bff59;    
+    /* undefined */
+    --colorIndigoA7: #3d6aff78;    
+    /* undefined */
+    --colorIndigoA8: #3e6bffa6;    
+    /* undefined */
+    --colorIndigoA9: #4571ffd9;    
+    /* undefined */
+    --colorIndigoA10: #5a7effe3;    
+    /* undefined */
+    --colorIndigoA11: #86a0fffa;    
+    /* undefined */
+    --colorIndigoA12: #f2f5fffa;    
+    --colorMauve1: #161618;    
+    --colorMauve2: #1c1c1f;    
+    --colorMauve3: #232326;    
+    --colorMauve4: #28282c;    
+    --colorMauve5: #2e2e32;    
+    --colorMauve6: #34343a;    
+    --colorMauve7: #3e3e44;    
+    --colorMauve8: #504f57;    
+    --colorMauve9: #706f78;    
+    --colorMauve10: #7e7d86;    
+    --colorMauve11: #a09fa6;    
+    --colorMauve12: #ededef;    
+    /* undefined */
+    --colorMauveA1: #00000000;    
+    /* undefined */
+    --colorMauveA2: #d7d7fa08;    
+    /* undefined */
+    --colorMauveA3: #ebebfe0f;    
+    /* undefined */
+    --colorMauveA4: #e5e5fe17;    
+    /* undefined */
+    --colorMauveA5: #eaeafe1c;    
+    /* undefined */
+    --colorMauveA6: #e1e1fe26;    
+    /* undefined */
+    --colorMauveA7: #e8e8fe30;    
+    /* undefined */
+    --colorMauveA8: #eae7ff45;    
+    /* undefined */
+    --colorMauveA9: #eeecff6b;    
+    /* undefined */
+    --colorMauveA10: #f0eeff7a;    
+    /* undefined */
+    --colorMauveA11: #f7f5ff9e;    
+    /* undefined */
+    --colorMauveA12: #fdfdffed;    
+    --colorOlive1: #151715;    
+    --colorOlive2: #1a1d19;    
+    --colorOlive3: #20241f;    
+    --colorOlive4: #262925;    
+    --colorOlive5: #2b2f2a;    
+    --colorOlive6: #313530;    
+    --colorOlive7: #3b3f3a;    
+    --colorOlive8: #4c514b;    
+    --colorOlive9: #687366;    
+    --colorOlive10: #778175;    
+    --colorOlive11: #9aa299;    
+    --colorOlive12: #eceeec;    
+    /* undefined */
+    --colorOliveA1: #00000000;    
+    /* undefined */
+    --colorOliveA2: #d5feaf08;    
+    /* undefined */
+    --colorOliveA3: #d6fbc40f;    
+    /* undefined */
+    --colorOliveA4: #effee214;    
+    /* undefined */
+    --colorOliveA5: #e9fedf1a;    
+    /* undefined */
+    --colorOliveA6: #ecfee521;    
+    /* undefined */
+    --colorOliveA7: #f1feeb2b;    
+    /* undefined */
+    --colorOliveA8: #f1ffed40;    
+    /* undefined */
+    --colorOliveA9: #e6ffe166;    
+    /* undefined */
+    --colorOliveA10: #ebffe775;    
+    /* undefined */
+    --colorOliveA11: #f3fff199;    
+    /* undefined */
+    --colorOliveA12: #fdfffded;    
+    --colorOrange1: #1f1206;    
+    --colorOrange2: #2b1400;    
+    --colorOrange3: #391a03;    
+    --colorOrange4: #441f04;    
+    --colorOrange5: #4f2305;    
+    --colorOrange6: #5f2a06;    
+    --colorOrange7: #763205;    
+    --colorOrange8: #943e00;    
+    --colorOrange9: #f76808;    
+    --colorOrange10: #ff802b;    
+    --colorOrange11: #ff8b3e;    
+    --colorOrange12: #feeadd;    
+    /* undefined */
+    --colorOrangeA1: #00000000;    
+    /* undefined */
+    --colorOrangeA2: #fd37000d;    
+    /* undefined */
+    --colorOrangeA3: #fd54001f;    
+    /* undefined */
+    --colorOrangeA4: #fe61002b;    
+    /* undefined */
+    --colorOrangeA5: #fe620138;    
+    /* undefined */
+    --colorOrangeA6: #ff65064a;    
+    /* undefined */
+    --colorOrangeA7: #ff640363;    
+    /* undefined */
+    --colorOrangeA8: #fe660085;    
+    /* undefined */
+    --colorOrangeA9: #ff6b08f5;    
+    /* undefined */
+    --colorOrangeA10: #ff842cfa;    
+    /* undefined */
+    --colorOrangeA11: #ff8c3ffa;    
+    /* undefined */
+    --colorOrangeA12: #ffeee1fa;    
+    --colorPink1: #1f121b;    
+    --colorPink2: #271421;    
+    --colorPink3: #3a182f;    
+    --colorPink4: #451a37;    
+    --colorPink5: #501b3f;    
+    --colorPink6: #601d48;    
+    --colorPink7: #7a1d5a;    
+    --colorPink8: #a71873;    
+    --colorPink9: #d6409f;    
+    --colorPink10: #e34ba9;    
+    --colorPink11: #f65cb6;    
+    --colorPink12: #feebf7;    
+    /* undefined */
+    --colorPinkA1: #00000000;    
+    /* undefined */
+    --colorPinkA2: #fd4ac10a;    
+    /* undefined */
+    --colorPinkA3: #fe44c01f;    
+    /* undefined */
+    --colorPinkA4: #ff41bf2b;    
+    /* undefined */
+    --colorPinkA5: #ff3bc138;    
+    /* undefined */
+    --colorPinkA6: #fe38b64a;    
+    /* undefined */
+    --colorPinkA7: #ff2db569;    
+    /* undefined */
+    --colorPinkA8: #ff1cac9c;    
+    /* undefined */
+    --colorPinkA9: #ff4abdd1;    
+    /* undefined */
+    --colorPinkA10: #ff53bde0;    
+    /* undefined */
+    --colorPinkA11: #ff5fbcf5;    
+    /* undefined */
+    --colorPinkA12: #ffeffbfa;    
+    --colorPlum1: #1d131d;    
+    --colorPlum2: #251425;    
+    --colorPlum3: #341a34;    
+    --colorPlum4: #3e1d40;    
+    --colorPlum5: #48214b;    
+    --colorPlum6: #542658;    
+    --colorPlum7: #692d6f;    
+    --colorPlum8: #883894;    
+    --colorPlum9: #ab4aba;    
+    --colorPlum10: #bd54c6;    
+    --colorPlum11: #d864d8;    
+    --colorPlum12: #fbecfc;    
+    /* undefined */
+    --colorPlumA1: #00000000;    
+    /* undefined */
+    --colorPlumA2: #fb2ffb0a;    
+    /* undefined */
+    --colorPlumA3: #fe58fe1a;    
+    /* undefined */
+    --colorPlumA4: #f153ff29;    
+    /* undefined */
+    --colorPlumA5: #f158fe33;    
+    /* undefined */
+    --colorPlumA6: #ee5cfe42;    
+    /* undefined */
+    --colorPlumA7: #ee5aff5c;    
+    /* undefined */
+    --colorPlumA8: #e959ff87;    
+    /* undefined */
+    --colorPlumA9: #ea62ffb0;    
+    /* undefined */
+    --colorPlumA10: #f36affbf;    
+    /* undefined */
+    --colorPlumA11: #ff75ffd4;    
+    /* undefined */
+    --colorPlumA12: #fff0fffa;    
+    /* undefined */
+    --colorRed1: #00000000;    
+    /* undefined */
+    --colorRed2: #fd28150d;    
+    /* undefined */
+    --colorRed3: #fe3a3d21;    
+    /* undefined */
+    --colorRed4: #fe39402e;    
+    /* undefined */
+    --colorRed5: #ff353f3d;    
+    /* undefined */
+    --colorRed6: #ff353c52;    
+    /* undefined */
+    --colorRed7: #ff303b70;    
+    /* undefined */
+    --colorRed8: #ff2f369e;    
+    /* undefined */
+    --colorRed9: #ff4f55e0;    
+    /* undefined */
+    --colorRed10: #ff595ff0;    
+    /* undefined */
+    --colorRed11: #ff646afa;    
+    /* undefined */
+    --colorRed12: #fff0f2fa;    
+    --colorPurple1: #1b141d;    
+    --colorPurple2: #221527;    
+    --colorPurple3: #301a3a;    
+    --colorPurple4: #3a1e48;    
+    --colorPurple5: #432155;    
+    --colorPurple6: #4e2667;    
+    --colorPurple7: #5f2d84;    
+    --colorPurple8: #7938b2;    
+    --colorPurple9: #8e4ec6;    
+    --colorPurple10: #9d5bd2;    
+    --colorPurple11: #bf7af0;    
+    --colorPurple12: #f7ecfc;    
+    /* undefined */
+    --colorPurpleA1: #00000000;    
+    /* undefined */
+    --colorPurpleA2: #b52afb0d;    
+    /* undefined */
+    --colorPurpleA3: #bc43fe21;    
+    /* undefined */
+    --colorPurpleA4: #be48fe30;    
+    /* undefined */
+    --colorPurpleA5: #bc49ff40;    
+    /* undefined */
+    --colorPurpleA6: #b74bff54;    
+    /* undefined */
+    --colorPurpleA7: #b14bff75;    
+    /* undefined */
+    --colorPurpleA8: #ab4bffa8;    
+    /* undefined */
+    --colorPurpleA9: #b561ffbf;    
+    /* undefined */
+    --colorPurpleA10: #bd6dffcc;    
+    /* undefined */
+    --colorPurpleA11: #cb81ffed;    
+    /* undefined */
+    --colorPurpleA12: #fcf0fffa;    
+    --colorSand1: #161615;    
+    --colorSand2: #1c1c1a;    
+    --colorSand3: #232320;    
+    --colorSand4: #282826;    
+    --colorSand5: #2e2e2b;    
+    --colorSand6: #353431;    
+    --colorSand7: #3e3e3a;    
+    --colorSand8: #51504b;    
+    --colorSand9: #717069;    
+    --colorSand10: #7f7e77;    
+    --colorSand11: #a1a09a;    
+    --colorSand12: #ededec;    
+    /* undefined */
+    --colorSandA1: #00000000;    
+    /* undefined */
+    --colorSandA2: #fdfdd508;    
+    /* undefined */
+    --colorSandA3: #fefeda0f;    
+    /* undefined */
+    --colorSandA4: #fdfdef14;    
+    /* undefined */
+    --colorSandA5: #fdfde91a;    
+    /* undefined */
+    --colorSandA6: #fdf6e621;    
+    /* undefined */
+    --colorSandA7: #ffffec2b;    
+    /* undefined */
+    --colorSandA8: #fefbea40;    
+    /* undefined */
+    --colorSandA9: #fffcec63;    
+    /* undefined */
+    --colorSandA10: #fffdee73;    
+    /* undefined */
+    --colorSandA11: #fffdf499;    
+    /* undefined */
+    --colorSandA12: #fffffeeb;    
+    --colorSky1: #0c1820;    
+    --colorSky2: #071d2a;    
+    --colorSky3: #082636;    
+    --colorSky4: #082d41;    
+    --colorSky5: #08354c;    
+    --colorSky6: #083e59;    
+    --colorSky7: #064b6b;    
+    --colorSky8: #005d85;    
+    --colorSky9: #68ddfd;    
+    --colorSky10: #8ae8ff;    
+    --colorSky11: #2ec8ee;    
+    --colorSky12: #eaf8ff;    
+    /* undefined */
+    --colorSkyA1: #00000000;    
+    /* undefined */
+    --colorSkyA2: #0087fe0d;    
+    /* undefined */
+    --colorSkyA3: #00a5fe1a;    
+    /* undefined */
+    --colorSkyA4: #00a6ff26;    
+    /* undefined */
+    --colorSkyA5: #00a9fe33;    
+    /* undefined */
+    --colorSkyA6: #00aefe42;    
+    /* undefined */
+    --colorSkyA7: #00aefe57;    
+    /* undefined */
+    --colorSkyA8: #00aeff73;    
+    /* undefined */
+    --colorSkyA9: #6ae1fffa;    
+    /* undefined */
+    --colorSkyA10: #8decfffa;    
+    /* undefined */
+    --colorSkyA11: #31d6ffeb;    
+    /* undefined */
+    --colorSkyA12: #effdfffa;    
+    --colorTomato1: #1d1412;    
+    --colorTomato2: #2a1410;    
+    --colorTomato3: #3b1813;    
+    --colorTomato4: #481a14;    
+    --colorTomato5: #541c15;    
+    --colorTomato6: #652016;    
+    --colorTomato7: #7f2315;    
+    --colorTomato8: #a42a12;    
+    --colorTomato9: #e54d2e;    
+    --colorTomato10: #ec5e41;    
+    --colorTomato11: #f16a50;    
+    --colorTomato12: #feefec;    
+    /* undefined */
+    --colorTomatoA1: #00000000;    
+    /* undefined */
+    --colorTomatoA2: #fd15000f;    
+    /* undefined */
+    --colorTomatoA3: #ff301921;    
+    /* undefined */
+    --colorTomatoA4: #fe331c30;    
+    /* undefined */
+    --colorTomatoA5: #fe351e3d;    
+    /* undefined */
+    --colorTomatoA6: #ff391e52;    
+    /* undefined */
+    --colorTomatoA7: #ff37196e;    
+    /* undefined */
+    --colorTomatoA8: #ff3a1299;    
+    /* undefined */
+    --colorTomatoA9: #ff5431e0;    
+    /* undefined */
+    --colorTomatoA10: #ff6445eb;    
+    /* undefined */
+    --colorTomatoA11: #ff7054f0;    
+    /* undefined */
+    --colorTomatoA12: #fff3f0fa;    
+    --colorViolet1: #17151f;    
+    --colorViolet2: #1c172b;    
+    --colorViolet3: #251e40;    
+    --colorViolet4: #2c2250;    
+    --colorViolet5: #32275f;    
+    --colorViolet6: #392c72;    
+    --colorViolet7: #443592;    
+    --colorViolet8: #5842c3;    
+    --colorViolet9: #6e56cf;    
+    --colorViolet10: #7c66dc;    
+    --colorViolet11: #9e8cfc;    
+    --colorViolet12: #f1eefe;    
+    /* undefined */
+    --colorVioletA1: #00000000;    
+    /* undefined */
+    --colorVioletA2: #743afd0d;    
+    /* undefined */
+    --colorVioletA3: #7452fe26;    
+    /* undefined */
+    --colorVioletA4: #7650ff38;    
+    /* undefined */
+    --colorVioletA5: #7654ff4a;    
+    /* undefined */
+    --colorVioletA6: #7253ff5e;    
+    /* undefined */
+    --colorVioletA7: #7053ff82;    
+    /* undefined */
+    --colorVioletA8: #6f52ffba;    
+    /* undefined */
+    --colorVioletA9: #8668ffc9;    
+    /* undefined */
+    --colorVioletA10: #8e75ffd6;    
+    /* undefined */
+    --colorVioletA11: #a18efffa;    
+    /* undefined */
+    --colorVioletA12: #f5f2fffa;    
+    --colorYellow1: #1c1500;    
+    --colorYellow2: #221a00;    
+    --colorYellow3: #2c2100;    
+    --colorYellow4: #352800;    
+    --colorYellow5: #3e3000;    
+    --colorYellow6: #493c00;    
+    --colorYellow7: #594a05;    
+    --colorYellow8: #705e00;    
+    --colorYellow9: #f5d90a;    
+    --colorYellow10: #ffef5c;    
+    --colorYellow11: #f0c000;    
+    --colorYellow12: #fffad1;    
+    /* undefined */
+    --colorYellowA1: #00000000;    
+    /* undefined */
+    --colorYellowA2: #facd0008;    
+    /* undefined */
+    --colorYellowA3: #fdbe0012;    
+    /* undefined */
+    --colorYellowA4: #fdc2001c;    
+    /* undefined */
+    --colorYellowA5: #fec70026;    
+    /* undefined */
+    --colorYellowA6: #fed80033;    
+    /* undefined */
+    --colorYellowA7: #ffdb1345;    
+    /* undefined */
+    --colorYellowA8: #fed8005e;    
+    /* undefined */
+    --colorYellowA9: #ffe20af5;    
+    /* undefined */
+    --colorYellowA10: #fff45efa;    
+    /* undefined */
+    --colorYellowA11: #ffcc00ed;    
+    /* undefined */
+    --colorYellowA12: #ffffd5fa;    
+    --colorWhiteBase: #ffffff;    
+    --colorWhiteA1: #ffffff;    
+    --colorWhiteA2: #ffffff03;    
+    --colorWhiteA3: #ffffff0a;    
+    --colorWhiteA4: #ffffff0d;    
+    --colorWhiteA5: #ffffff17;    
+    --colorWhiteA6: #ffffff21;    
+    --colorWhiteA7: #ffffff2e;    
+    --colorWhiteA8: #ffffff40;    
+    --colorWhiteA9: #ffffff61;    
+    --colorWhiteA10: #ffffff73;    
+    --colorWhiteA11: #ffffff96;    
+    --colorWhiteA12: #ffffffeb;    
+    --colorBlackBase: #000000;    
+    --colorBlackA1: #00000003;    
+    --colorBlackA2: #00000008;    
+    --colorBlackA3: #0000000d;    
+    --colorBlackA4: #00000012;    
+    --colorBlackA5: #00000017;    
+    --colorBlackA6: #0000001c;    
+    --colorBlackA7: #00000024;    
+    --colorBlackA8: #00000038;    
+    --colorBlackA9: #00000070;    
+    --colorBlackA10: #0000007a;    
+    --colorBlackA11: #0000008f;    
+    --colorBlackA12: #000000e8;    
+}

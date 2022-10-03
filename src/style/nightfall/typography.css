@@ -1,0 +1,1190 @@
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyBodyStylesBodyCompact01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyBodyStylesBodyCompact02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyBodyStylesBody01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyBodyStylesBody02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for inline code snippets and smaller code elements. */
+.typographyUtilityStylesCode01 
+ {
+  
+  font-family: "iA Writer Duo V";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing:  
+  0.03em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for large code snippets and larger code elements. */
+.typographyUtilityStylesCode02 
+ {
+  
+  font-family: "iA Writer Duo V";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing:  
+  0.02em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesLabel01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing:  
+  0.03em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesLabel02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesHelperText01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing:  
+  0.03em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesHelperText01Copy 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing:  
+  0.03em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesHelperText02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesLegal01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing:  
+  0.03em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyUtilityStylesLegal02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeadingCompact01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeadingCompact02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading03 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading04 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading05 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading06 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFixedHeadingStylesHeading07 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesSmFluidHeading03 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesSmFluidHeading04 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesSmFluidHeading05 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesSmFluidHeading06 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesSmFluidParagraph01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesSmFluidQuotation01 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesSmFluidQuotation02 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesSmFluidDisplay01 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesSmFluidDisplay02 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesSmFluidDisplay03 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesSmFluidDisplay04 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMedFluidHeading03 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMedFluidHeading04 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMedFluidHeading05 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMedFluidHeading06 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMedFluidParagraph01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesMedFluidQuotation01 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesMedFluidQuotation02 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMedFluidDisplay01 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMedFluidDisplay02 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMedFluidDisplay03 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMedFluidDisplay04 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesLgFluidHeading03 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesLgFluidHeading04 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesLgFluidHeading05 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesLgFluidHeading06 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesLgFluidParagraph01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesLgFluidQuotation01 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesLgFluidQuotation02 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesLgFluidDisplay01 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesLgFluidDisplay02 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesLgFluidDisplay03 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesLgFluidDisplay04 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesXlgFluidHeading03 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesXlgFluidHeading04 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesXlgFluidHeading05 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesXlgFluidHeading06 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesXlgFluidParagraph01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesXlgFluidQuotation01 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesXlgFluidQuotation02 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesXlgFluidDisplay01 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesXlgFluidDisplay02 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesXlgFluidDisplay03 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesXlgFluidDisplay04 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMaxFluidHeading03 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMaxFluidHeading04 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMaxFluidHeading05 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMaxFluidHeading06 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyFluidStylesMaxFluidParagraph01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesMaxFluidQuotation01 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* “Quote.” */
+.typographyFluidStylesMaxFluidQuotation02 
+ {
+  
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMaxFluidDisplay01 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMaxFluidDisplay02 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMaxFluidDisplay03 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+.typographyFluidStylesMaxFluidDisplay04 
+ {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyLinkBodyCompact01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyLinkBodyCompact02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyLinkBody01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing:  
+  0.01em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyLinkBody02 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing:  
+  0em;
+  text-indent: 0px;
+  
+}    
+
+/* This is for short paragraphs with no more than four lines and is commonly used in components. */
+.typographyLinkHelperText01 
+ {
+  
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing:  
+  0.03em;
+  text-indent: 0px;
+  
+}    
+

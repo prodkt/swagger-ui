@@ -1,0 +1,107 @@
+.dialog-ux
+{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .backdrop-ux
+    {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        backdrop-filter: blur(8px);
+
+        background: var(--blueA5);
+    }
+
+    .modal-ux
+    {
+        position: absolute;
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+
+        width: 100%;
+        min-width: 300px;
+        max-width: 650px;
+
+        transform: translate(-50%,-50%);
+        color: var(--blue12);
+        border: 1px solid var(--blueA3);
+        border-radius: $radii-5;
+        background-color: var(--blue1);
+        box-shadow: 0 10px 30px 0 var(--blue2);
+    }
+
+    .modal-ux-content
+    {
+        overflow-y: auto;
+
+        max-height: 540px;
+        padding: 20px;
+
+        p
+        {
+            font-size: 12px;
+
+            margin: 0 0 5px 0;
+
+            color: var(--blue12);
+
+            @include text_body();
+        }
+
+        h4
+        {
+            font-size: 18px;
+            font-weight: 600;
+
+            margin: 15px 0 0 0;
+
+            @include text_headline();
+        }
+    }
+
+    .modal-ux-header
+    {
+        display: flex;
+
+        padding: 2rem;
+
+        border-bottom: 1px solid var(--alphaA3);
+
+        align-items: center;
+
+        .close-modal
+        {
+            padding: 0 10px;
+
+            border: none;
+            background: none;
+
+            appearance: none;
+
+            svg {
+              fill: var(--alphaA12);
+            }
+        }
+
+
+        h3
+        {
+            font-size: 20px;
+            font-weight: 600;
+
+            margin: 0;
+            // padding: 2rem;
+
+            flex: 1;
+            @include text_headline();
+        }
+    }
+}

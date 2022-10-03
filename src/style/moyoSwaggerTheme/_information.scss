@@ -1,0 +1,134 @@
+
+
+.info__tos, .info__license, .info__extdocs {
+  width: 16.666%;
+  max-width: 16.666%;
+  padding: 0;
+  margin: 0;
+  }
+
+  .info__contact {
+    width: 33.333%;
+    max-width: 33.333%;
+    padding: 0;
+    margin: 0;
+  }
+
+.info
+{
+    margin: 2rem 0 2rem 0rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    &.failed-config
+    {
+        max-width: 880px;
+    }
+
+    hgroup.main
+    {
+
+      max-width: 50%;
+
+        a
+        {
+            font-size: 12px;
+        }
+    }
+    pre
+    {
+        font-size: 16px;
+    }
+    p, li, table
+    {
+        font-size: 16px;
+
+        @include text_body();
+    }
+
+    h1, h2, h3, h4, h5
+    {
+        @include text_headline();
+        font-family: $headline-font;
+    }
+
+    a
+    {
+        font-size: 14px;
+
+        transition: all .4s;
+
+        @include text_body($info-link-font-color);
+
+        &:hover
+        {
+            color: $--cyan11;
+        }
+    }
+    > div
+    {
+        margin: 0 0 5px 0;
+    }
+
+    .base-url
+    {
+        font-size: 12px;
+        font-weight: 300 !important;
+
+        margin: 0;
+
+        @include text_code();
+    }
+
+    .title
+    {
+        font-size: 36px;
+        // max-width: 20ch;
+
+        margin: 0;
+
+        font-weight: 700;
+
+        @include text_body();
+
+        small
+        {
+            font-size: 10px;
+            font-weight: 500;
+
+            position: relative;
+            top: -5px;
+
+            display: inline-flex;
+
+            align-items: center;
+
+            margin: 0 0 0 5px;
+            padding: .25rem .5rem;
+
+
+            vertical-align: baseline;
+
+            border-radius: 57px;
+            border: 2px solid var(--blue9);
+
+            &.version-stamp
+            {
+              border: 2px solid var(--mint9);
+
+            }
+
+            pre
+            {
+                margin: 0;
+                padding: 0;
+                color: var(--blue12);
+                font-family: $body-font;
+
+                // @include text_headline($info-title-small-pre-font-color);
+            }
+        }
+    }
+}

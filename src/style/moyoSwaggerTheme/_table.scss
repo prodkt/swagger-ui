@@ -1,0 +1,203 @@
+table {
+  width: 100%;
+
+  &.model {
+    tbody {
+      tr {
+        td {
+          &:first-of-type {
+          }
+        }
+      }
+    }
+  }
+
+  &.headers {
+    td {
+      @include text_code();
+    }
+
+    .header-example {
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+
+        &:first-of-type {
+        }
+      }
+    }
+  }
+
+  thead {
+    tr {
+      th,
+      td {
+      }
+    }
+  }
+}
+
+.parameters-col_description {
+  // width: 99%; // forces other columns to shrink to their content widths
+  // margin-bottom: 2em;
+  // input
+  // {
+  //     width: 100%;
+  //     max-width: 340px;
+  // }
+  // select {
+  //     border-width: 1px;
+  // }
+}
+
+.parameter__name {
+  // font-size: 16px;
+  // font-weight: normal;
+  // hack to give breathing room to the name column
+  // TODO: refactor all of this to flexbox
+  // margin-right: .75em;
+
+  @include text_headline();
+
+  &.required {
+    span {
+      // color: red;
+    }
+
+    &:after {
+      // font-size: 10px;
+
+      // position: relative;
+      // top: -6px;
+
+      // padding: 5px;
+
+      // content: 'required';
+
+      // color: rgba($table-parameter-name-required-font-color, .6);
+    }
+  }
+}
+
+.parameter__in,
+.parameter__extension {
+  // font-size: 12px;
+  // font-style: italic;
+  @include text_code($table-parameter-in-font-color);
+}
+
+.parameter__deprecated {
+  // font-size: 12px;
+  // font-style: italic;
+  @include text_code($table-parameter-deprecated-font-color);
+}
+
+.parameter__empty_value_toggle {
+  // display: block;
+  // font-size: 13px;
+  // padding-top: 5px;
+  // padding-bottom: 12px;
+
+  input {
+    // margin-right: 7px;
+  }
+
+  &.disabled {
+    // opacity: 0.7;
+  }
+}
+
+.table-container {
+  // padding: 20px;
+}
+
+.response__extension {
+  // font-size: 12px;
+  // font-style: italic;
+  // background-color: purple;
+  // @include text_code($table-parameter-in-font-color);
+}
+
+// CONFIRMED STYLES THAT HIT ON MOST SWAGGER UI PAGES THAT NEED STYLES -- A LOT WAS NOT ACCURATE NOR NEEDED AS ADMITTED BY SWAGGER UI DEVELOPERS
+
+// TOP HEADER TABLE ROW - LEFT TO RIGHT
+.responses-header {
+  background-color: $--alphaA4;
+  width: 99%; // forces other columns to shrink to their content widths
+}
+
+// LEFT COLUMN TABLE ROW - TOP TO BOTTOM
+.response-col_status {
+  background-color: $--alphaA4;
+  padding: 1rem;
+}
+
+// RIGHT COLUMN TABLE ROW - TOP TO BOTTOM
+.response-col_links {
+  background-color: $--alphaA4;
+  padding: 1rem;
+  margin: 0;
+}
+
+// MIDDLE OF TABLE - TOP TO BOTTOM
+.response-col_description {
+  width: 99%; // forces other columns to shrink to their content widths
+  padding: 0;
+  margin: 0;
+}
+
+// MIDDLE OF TABLE - ITEMS
+.renderedMarkdown {
+  padding: 0;
+  margin: 0;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+//
+.response-controls {
+  // background-color: $--alphaA4;
+  // padding: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+// RENDERED RESULTS
+.model-example {
+  padding: 0;
+  margin: 0;
+}
+
+// CODE EDITOR
+.example .microlight, .microlight {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+//
+.response-control-media-type {
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  padding: 0;
+  margin: 0;
+}
+
+.tabitem {
+  padding: 0;
+  margin: 0;
+}
+
+.tablinks {
+  padding: 0;
+  margin: 0;
+}

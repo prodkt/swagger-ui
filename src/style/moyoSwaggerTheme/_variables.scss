@@ -1,0 +1,215 @@
+@import '../prodkt-ui/whiteA';
+
+$black: #000;
+$--alpha: #fff;
+
+$base-background-color: $--blue2;
+
+$color-primary: $--blue9;
+$color-secondary: $--mint9;
+$color-info: $--cyan11;
+$color-warning: $--amber9;
+$color-danger: $--tomato9;
+$color-success: $--grass9;
+
+$color-primary-hover: $--blue9;
+
+$_color-post: $--grass9;
+$_color-get: $--blue9;
+$_color-put: $--amber9;
+$_color-delete: $--tomato9;
+$_color-head: $--blue9;
+$_color-patch: $--mint9;
+$_color-disabled: #ebebeb;
+$_color-options: $--blue9;
+
+
+$radii-1: .3rem;
+$radii-2: .5rem;
+$radii-3: .5rem;
+$radii-4: .8rem;
+$radii-5: 1rem;
+$radii-round: 50%;
+$radii-pill: 9999px;
+
+// Authorize
+
+$auth-container-border-color: $--alphaA1;
+$auth-select-all-none-link-font-color: $color-info;
+// Buttons
+
+$btn-background-color: transparent;
+$btn-border-color: $--blueA5;
+$btn-font-color: $--alphaA12;
+$btn-box-shadow-color: $--blueA5;
+
+$btn-authorize-background-color: transparent;
+$btn-authorize-border-color:$_color-post;
+$btn-authorize-font-color: $--grass12;
+$btn-authorize-svg-fill-color:$_color-post;
+
+$btn-cancel-background-color: transparent !default;
+$btn-cancel-border-color:$color-warning !default;
+$btn-cancel-font-color:$color-warning !default;
+
+$btn-execute-background-color: transparent;
+$btn-execute-border-color: $color-info;
+$btn-execute-font-color: $--alpha;
+$btn-execute-background-color-alt: $color-info;
+
+$expand-methods-svg-fill-color: $--blue12;
+$expand-methods-svg-fill-color-hover: $--blue10;
+
+// Errors
+
+$errors-wrapper-background-color:$_color-delete !default;
+$errors-wrapper-border-color:$_color-delete !default;
+
+$errors-wrapper-errors-small-font-color: $--blue12;
+
+// Form
+
+$form-select-background-color: $--blueA4;
+$form-select-border-color: $--blue7;
+$form-select-box-shadow-color: $--blue1;
+
+$form-input-border-color: $--alphaA12;
+$form-input-background-color: $--alphaA8;
+
+$form-textarea-background-color: $--alphaA12;
+$form-textarea-focus-border-color:$_color-get;
+
+$form-textarea-curl-background-color: $--alphaA7;
+$form-textarea-curl-font-color: $--alpha !default;
+
+$form-checkbox-label-font-color: $--blue12 !default;
+$form-checkbox-background-color: $--blue3 !default;
+$form-checkbox-box-shadow-color: $--blue3 !default;
+
+// Information
+
+$info-code-background-color: $--blue1;
+$info-code-font-color:$_color-head !default;
+
+$info-link-font-color: $color-info;
+$info-link-font-color-hover:$info-link-font-color !default;
+
+$info-title-small-background-color: $--blue2;
+
+$info-title-small-pre-font-color: $--alpha !default;
+
+
+// Layout
+
+$opblock-border-color: $--alpha !default;
+$opblock-box-shadow-color: $--blue12 !default;
+
+$opblock-tag-border-bottom-color: $--alphaA1;
+$opblock-tag-background-color-hover: $--alphaA12;
+
+$opblock-tab-header-tab-item-active-h4-span-after-background-color: $--alphaA1;
+
+$opblock-isopen-summary-border-bottom-color: $--blueA6;
+
+$opblock-isopen-section-header-background-color: $--blueA1;
+$opblock-isopen-section-header-box-shadow-color: $--alphaA1;
+
+$opblock-summary-method-background-color: $--blue5;
+$opblock-summary-method-font-color: $--blue12;
+$opblock-summary-method-text-shadow-color: $--blue1;
+
+$operational-filter-input-border-color: $--tomato6 !default;
+
+$tab-list-item-first-background-color:$black !default;
+
+$response-col-status-undocumented-font-color: $--blue1 !default;
+
+$response-col-links-font-color: $--blue1 !default;
+
+$opblock-body-background-color: $--blue3 !default;
+$opblock-body-font-color: $--alpha !default;
+
+$scheme-container-background-color: $--blueA2;
+$scheme-container-box-shadow-color: $--blue12;
+
+$server-container-background-color: $--blue11;
+$server-container-box-shadow-color: $--blue1;
+
+$server-container-computed-url-code-font-color: $--blue4 !default;
+
+$loading-container-before-border-color: $--blue3;
+$loading-container-before-border-top-color:$black !default;
+
+$response-content-type-controls-accept-header-select-border-color: $--amber5 !default;
+$response-content-type-controls-accept-header-small-font-color: $--amber5 !default;
+
+// Modal
+
+$dialog-ux-backdrop-background-color: $--blue1;
+
+
+$dialog-ux-modal-background-color: $--blue5;
+$dialog-ux-modal-border-color: $--blueA3;
+$dialog-ux-modal-box-shadow-color: $--blue1;
+
+$dialog-ux-modal-content-font-color: $--blue12;
+
+$dialog-ux-modal-header-border-bottom-color: $--blueA3;
+
+// Models
+
+$model-deprecated-font-color: $--blue3;
+
+$model-hint-font-color: $--cyan12;
+
+$model-hint-background-color: $--cyan8;
+
+$section-models-border-color: $--blue4;
+
+$section-models-isopen-h4-border-bottom-color: $section-models-border-color;
+
+$section-models-h4-font-color: $--blue9;
+
+$section-models-h4-background-color-hover: $--blue12;
+
+$section-models-h5-font-color: $--blue3;
+
+$section-models-model-container-background-color: $--blue1;
+
+$section-models-model-box-background-color: $--blue12;
+
+// Schema Titles
+$section-models-model-title-font-color: $--blue10;
+
+// Schema Properties: string
+$prop-type-font-color: $--amber9;
+
+$prop-format-font-color: $--blue9;
+
+// Tables
+
+$table-thead-td-border-bottom-color: $--blueA3;
+
+$table-parameter-name-required-font-color:$color-danger;
+
+$table-parameter-in-font-color: $--blue8;
+
+$table-parameter-deprecated-font-color:$color-danger ;
+
+// Topbar
+
+$topbar-background-color: $--blue8;
+
+$topbar-link-font-color: $--blue12;
+
+$topbar-download-url-wrapper-element-border-color: $--tomato6;
+
+$topbar-download-url-button-background-color: $--tomato6;
+$topbar-download-url-button-font-color: $--alphaA12;
+
+// Type
+
+
+$text-body-default-font-color: $--blue12;
+$text-code-default-font-color: $--blue12;
+$text-headline-default-font-color: $--blue12;
