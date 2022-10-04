@@ -1,3 +1,9 @@
+# moyo-theme for swagger-ui tovuti api 2
+
+Reference index.html -- This is the HTML wrapper needed for style to properly handle dark mode
+Reference /src/assets/ -- These are your images and fonts
+Reference /src/style/ -- This is the custom Swagger Theme
+
 # swagger-ui
 
 This template should help get you started developing with Vue 3 in Vite.
